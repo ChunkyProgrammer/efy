@@ -10,5 +10,15 @@
     "type": "git",
     "url": "https://github.com/dragos-efy/efy"
   },
-  "files": [".gitignore", "**/*", "!.git/**", "!.github/**"]
+  "files": [".gitignore", "**/*", "!.git/**", "!.github/**"],
+  "devDependencies": {
+    "browserslist": "4.23.0",
+    "lightningcss": "^1.25.0"
+  },
+  "scripts": {
+    "minify-css": "node ./node_scripts/minify-css.mjs"
+  },
+  "browserslist": [
+    "defaults and not dead"
+  ]
 }
